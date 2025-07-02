@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/a13b018dba.js" crossorigin="anonymous"></script>
+    <style>
+      #one {
+        background-color: #1da3f7;
+        color: rgb(236, 228, 228);
+        width: 100%;
+        height: 100px;
+        padding-top: 60px;
+        position: fixed;
+        z-index: 1;
+        margin-top: -10px;
+      }
+      #class {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      #class img {
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid white;
+        transition: all ease-in-out 0.5s;
+      }
+      #class img:hover {
+        width: 35%;
+      }
+      #fore {
+        background-color: #333333;
+        color: white;
+        border-radius: 30px;
+        height: 300px;
+        padding: 20px;
+        width: 300px;
+        margin: 24px;
+        float: left;
+        margin-left: 90px;
+        box-shadow: 5px 5px;
+        transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      #fore:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+      }
+      body {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+      }
+      #one a {
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        color: white;
+        background-color: black;
+        border-radius: 42px;
+        margin-right: 40px;
+      }
+      #one a:hover {
+        background-color: #00ccff;
+      }
+      #two {
+        font-family: 'Montserrat';
+        font-size: 70px;
+        font-weight: 800;
+        color: #333;
+        margin-left: 100px;
+        margin-top: -20px;
+      }
+      .skill-bar {
+        background: #555;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 10px;
+        height: 20px;
+      }
+      .skill-bar-fill {
+        height: 100%;
+        border-radius: 10px;
+        background: #1dcf2c;
+        text-align: right;
+        padding-right: 10px;
+        line-height: 20px;
+        color: black;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one">
+      <a href="#CONTACT&nbsp;ME">CONTACT&nbsp;ME</a>
+      <a href="#PROJECTS">PROJECTS</a>
+      <a href="#EDUCATION">EDUCATION</a>
+      <a href="#SKILLS">SKILLS</a>
+      <a href="#ABOUT">ABOUT</a>
+      <a href="#HOME">HOME</a>
+      <h2 id="two">PORTFOLIO</h2>
+    </div>
+    <div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <b><h1 id="HOME" style="margin-left: 37px; font-size: 70px">
+        <span style="color: #c1ce08;">HO</span>ME
+      </h1></b>
+      <br /><br />
+      <img style="width:470px; height:447px; float:left; margin-left:30px; border-radius:390px; border: 5px solid #37037a;" src="s.satya.jpg" />
+      <br /><br />
+      <p style="margin-left: 520px; font-size: 30px">
+        <b><span style="color: #00ccff; font-size: 50px; font-weight: 50px;">HELLO!</span></b><br />
+        This portfolio showcases my skills and achievements, highlighting my growth and dedication to the field of computer science.
+      </p>
+      <br /><br />
+      <a href="https://www.linkedin.com/in/satya-somisetti-3967a427a/"><i class="fa-brands fa-linkedin fa-2xl" style="margin-left: 20px; color: #00ccff;"></i></a>
+      <a href="https://www.instagram.com/satya.somisetti"><i class="fa-brands fa-instagram fa-2xl" style="margin-left: 20px; color: #ED820E;"></i></a>
+      <a href="https://github.com/Satya9933"><i class="fa-brands fa-github fa-2xl" style="margin-left: 20px; color: white;"></i></a>
+      <br /><br /><br />
+      <!-- Import Montserrat font (optional if you already have it) -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+      <a href="resume.html" target="_blank" style="
+        background-color: #0f4c81;
+        color: #ffffff;
+        padding: 12px 24px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        display: inline-block;
+        transition: all 0.3s ease;
+      ">
+      Resume
+      </a>
+
+      <style>
+        a[href="resume.html"]:hover {
+          background-color: #092c4c;
+          transform: scale(1.05);
+          box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+      </style>
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h2 id="ABOUT" style="font-size: 70px; float: centre; margin-right: 30px;">
+        AB<span style="color: #c1ce08;">OUT</span>
+      </h2>
+      <br />
+      <p style="font-size: 30px; margin-left: 20px; margin-top: 10px;">
+        <span style="color: #00ccff;"><b>I am</b></span>
+        <span style="color: #ED820E;"><b> Satya Somisetti.</b></span><br />
+        A student at Bonam Venkata Chalamayya Engineering College, Odalarevu, pursuing a degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning (AIML).<br />
+        <span style="color: #00ccff;">Gender</span> : <span style="color: #ED820E;">Male</span><br />
+        <span style="color: #00ccff;">Father's Name</span> : <span style="color: #ED820E;">Siva</span><br />
+        <span style="color: #00ccff;">City</span> : <span style="color: #ED820E;">Anaparthi, Andhra Pradesh, India.</span>
+      </p>
+      <br /><br /><br /><br />
+      <center><h2 id="SKILLS" style="font-size: 70px;"><span style="color: #c1ce08;">SKI</span>LLS</h2></center>
+      <br /><br />
+
+      <div id="fore">
+        <i class="fab fa-python" style="font-size: 60px; color: #0ab121;"></i>
+        <h2>Python</h2>
+        <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;">80%</div></div>
+        <p>Versatile high-level language used in data science, web dev, and automation.</p>
+      </div>
+
+      <div id="fore">
+        <i class="fab fa-css3-alt" style="font-size: 60px; color: #0ab121;"></i>
+        <h2>CSS</h2>
+        <div class="skill-bar"><div class="skill-bar-fill" style="width: 60%;">60%</div></div>
+        <p>Stylesheet language for enhancing web pages' look and layout.</p>
+      </div>
+
+      <div id="fore">
+        <i class="fab fa-html5" style="font-size: 60px; color: #0ab121;"></i>
+        <h2>HTML</h2>
+        <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;">90%</div></div>
+        <p>Markup language for structuring and presenting web content.</p>
+      </div>
+
+      <div id="fore">
+        <i class="fab fa-java" style="font-size: 60px; color: #0ab121;"></i>
+        <h2>Java</h2>
+        <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;">80%</div></div>
+        <p>Object-oriented language used in enterprise and web development.</p>
+      </div>
+
+      <div id="fore">
+        <i class="fab fa-cuttlefish" style="font-size: 60px; color: #0ab121;"></i>
+        <h2>C</h2>
+        <div class="skill-bar"><div class="skill-bar-fill" style="width: 70%;">70%</div></div>
+        <p>Low-level language known for efficiency and system-level programming.</p>
+      </div>
+
+      <div id="fore">
+        <i class="fab fa-buffer" style="font-size: 60px; color: #599636;"></i>
+        <h2>MongoDB</h2>
+        <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;">80%</div></div>
+        <p>NoSQL database for scalable, flexible document-based storage.</p>
+      </div>
+
+      <h2 id="EDUCATION" style="font-size: 60px; margin-top: 900px; margin-left: 50px;">
+        EDUCA<span style="color: #c1ce08;">TION</span>
+      </h2>
+      <br /><br /><br /><br />
+
+      <center>
+        <table border="5" cellpadding="8" cellspacing="0" bordercolor="white" height="300" width="1300" style="color: white; font-size: 40px; text-align: center;">
+          <tr>
+            <th style="color: #06be1f;">CLASS</th>
+            <th style="color: #06be1f;">PERCENTAGE</th>
+            <th style="color: #06be1f;">COLLEGE</th>
+            <th style="color: #06be1f;">PLACE</th>
+            <th style="color: #06be1f;">PASS OUT</th>
+          </tr>
+          <tr>
+            <td>10<sup>th</sup></td>
+            <td>97%</td>
+            <td>Z.P.P.H.S G.Donthamuru</td>
+            <td>G.Donthamuru</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>Inter</td>
+            <td>89%</td>
+            <td>GBR Junior College</td>
+            <td>Anaparthi</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>B.Tech</td>
+            <td>8.3 (up to 3.1)</td>
+            <td>BVCE</td>
+            <td>Odalarevu</td>
+            <td>2026</td>
+          </tr>
+        </table>
+      </center>
+      <br /><br /><br /><br /><br />
+      <center><h2 id="PROJECTS" style="font-size: 70px;"><span style="color: #c1ce08;">PROJ</span>ECTS</h2></center>
+      <br />
+      <p style="width: 1350px; font-size: 25px; margin-left: 30px;">
+        I improved my HTML and CSS skills by creating a <a href="file:///C:/Users/user/OneDrive/Desktop/New%20folder/indexone.html" style="text-decoration: none; color: #00ccff;">calculator project</a>. This project honed my coding abilities and helped me practice modern web design principles.
+      </p>
+      <br /><br />
+      <div id="class">
+        <img src="images.png" />
+      </div>
+      <br /><br /><br /><br /><br /><br />
+      <h2 id="CONTACT&nbsp;ME" style="font-size: 70px;">CONTACT&nbsp;<span style="color: #c1ce08;">ME</span></h2>
+      <form style="float: right; margin-right: 60px;">
+        <fieldset style="width: 700px; font-weight: 500;">
+          <legend>Details</legend>
+          Enter name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" name="username" placeholder="Enter your name"><p></p>
+          Enter gmail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="email" name="gmail" placeholder="Enter your gmail"><p></p>
+          Description:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <textarea rows="1" cols="40" placeholder="How can I help you"></textarea><p></p>
+          Project details:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="file" name="image" accept="image/*">
+        </fieldset>
+        <br /><br /><br /><br />
+        <center>
+          <button style="border-radius: 22px; width: 90px; height: 40px; border: 2px solid skyblue; background-color: #006699;">
+            <b>Submit</b>
+          </button>
+        </center>
+      </form>
+      <br />
+      <div style="margin-left: 70px; margin-bottom: 200px; margin-top: 20px;">
+        <p style="color: white; font-size: 20px; font-weight: 100px;">
+          If you have any project idea, don't hesitate to reach us through any of the contact options provided.
+        </p><br /><br />
+        <i class="fa-solid fa-phone-volume fa-shake fa-2xl"></i>&nbsp;:&nbsp;+91 8919260158 <br /><br /><br />
+        <i class="fa-regular fa-envelope fa-2xl"></i>&nbsp;:&nbsp;satyasomisetti111@gmail.com<br />
+      </div>
+      <center style="color: #ED820E;"><b>THANK YOU!</b></center><br />
+      <footer><center style="background-color: #1de20b; width: 100%; color: black;">© 2024 Satya Somisetti. All rights reserved.</center></footer>
+    </div>
+  </body>
+</html>
